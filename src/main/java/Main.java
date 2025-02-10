@@ -188,4 +188,41 @@ class Main {
 		
 		return a1.getNext();
 	}
+
+
+	public static Node <Integer> q6(Node <Integer> header)
+	{
+		Node <Integer> current = header;
+		Node <Integer> check ;
+		int flag=1;
+		int max=0;
+		
+		while(current != null)
+                if (current.Next().getValue() >= current.getValue()) {
+                	flag =+1 ;
+                }
+               
+            current = current.getNext();
+		}
+		
+		return header;
+	}
+
+	public static Node <Integer> q7(Node <Integer> header)
+	{
+		Node <Integer> current = header;
+		Node <Integer> check ;
+		int flag=1;
+		int max=0;
+		
+		while(current != null)
+                if (current.Next().getValue() >= current.getValue()) {
+                	flag =+1 ;
+                }
+               
+            current = current.getNext();
+		}
+		
+		return header;
+	}
 }
